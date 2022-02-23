@@ -9,13 +9,16 @@ body {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
-    background-color: lightseagreen;
+    background-color: #2CABE0;
     color: white;
 }
-
+header {
+    display: flex;
+    justify-content: center;
+}
 h1 {
     text-align: center;
-    color: darkslategrey;
+    color: black;
 }
 
 .container {
@@ -47,7 +50,7 @@ input {
 .li-container {
     background-color: white;
     width: 100%;
-    color: darkslategray;
+    color: black;
     margin-top: 20px;
 }
 
@@ -85,7 +88,7 @@ li p {
 
 .btn-delete:hover {
     cursor: pointer;
-    background-color: lightseagreen;
+    background-color: #FEE440;
 }
 
 .btn-add {
@@ -93,18 +96,19 @@ li p {
     border: none;
     color: white;
     font-family: fantasy;
-    background-color: teal;
+    background-color: #FF865E;
     font-size: 1.4rem;
     outline: none;
 }
 
 .btn-add:hover {
     cursor: pointer;
-    background-color: darkcyan;
+    background-color: #FEE440;
 }
 
 .empty {
-    color: darkslategrey;
+    color: #FE5C27;
+    font-weight: bold;
 }
 footer {
     display: flex;
