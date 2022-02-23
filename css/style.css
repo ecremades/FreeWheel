@@ -88,7 +88,8 @@ li p {
 
 .btn-delete:hover {
     cursor: pointer;
-    background-color: #FEE440;
+    background-color: #FFC756;
+    color: black;
 }
 
 .btn-add {
@@ -103,7 +104,8 @@ li p {
 
 .btn-add:hover {
     cursor: pointer;
-    background-color: #FEE440;
+    background-color: #FFC756;
+    color: black;
 }
 
 .empty {
