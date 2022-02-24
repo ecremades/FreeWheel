@@ -7,9 +7,11 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <title>FreeWheel</title>
+    
   </head>
 
   <body>
+    
     <header>
       <img src="./img/smoking-azul.jpg" alt="Foto principal" />
     </header>
@@ -24,6 +26,17 @@
       <div class="li-container">
         <ul></ul>
       </div>
+      <div id="parejas">
+        <ul>
+          <li>ana - quique</li>
+          <li>bea - paula</li>
+        </ul>
+      </div>
+      <p id="mostrar-lista"></p>
+      <div id="botones">
+        <p class="p-btn" onclick="crearlista()">Agregar lista</p>
+        <p class="p-btn" onclick="borrarlista()">Borrar lista</p>
+      </div>
       <div class="empty">
         <p>Añade nombres a la lista.</p>
       </div>
@@ -33,5 +46,5 @@
       <p>By FreeWheel</p>
     </footer>
   </body>
-  <script src="./js/main.js"></script>
+  <script type="text/javascript" src="./js/main.js"></script>
 </html>

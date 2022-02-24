@@ -83,6 +83,12 @@ li p {
     width: 100%;
 }
 
+#parejas {
+    /* display: none; */
+    color: black;
+
+}
+
 .btn-delete {
     margin-left: auto;
     border: none;
@@ -134,4 +140,15 @@ footer {
 #CC {
     width: 10%;
     margin-right: 10%;
+}
+
+#mostrar-lista {
+    color: black;
+}
+
+.p-btn {
+    display: inline-block;
+    border: 1px solid red ;
+    color: black
+
 }

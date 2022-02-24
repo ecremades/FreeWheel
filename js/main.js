@@ -2,6 +2,20 @@ const input = document.querySelector("input");
 const addBtn = document.querySelector(".btn-add");
 const ul = document.querySelector("ul");
 const empty = document.querySelector(".empty");
+let personas = ['Ana', 'Bea', 'Paula', 'Enrique'];
+
+function crearlista() {
+  document.getElementById('mostrar-lista').innerHTML = personas;
+
+}
+
+function borrarlista() {
+  personas = [];
+  document.getElementById('mostrar-lista').innerHTML = personas;
+  console.log(personas);
+  document.getElementById('mostrar-lista').innerHTML = "la lista de personas está vacía";
+
+}
 
 addBtn.addEventListener("click", (e) => {
   e.preventDefault();
@@ -40,4 +54,8 @@ function addDeleteBtn() {
   });
 
   return deleteBtn;
+
+
+
+
 }
