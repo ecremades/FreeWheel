@@ -2,7 +2,7 @@ const input = document.querySelector("input");
 const addBtn = document.querySelector(".btn-add");
 const ul = document.querySelector("ul");
 const empty = document.querySelector(".empty");
-let personas = ['Ana', 'Bea', 'Paula', 'Enrique'];
+let personas = [];
 
 function crearlista() {
   document.getElementById('mostrar-lista').innerHTML = personas;
@@ -30,6 +30,7 @@ addBtn.addEventListener("click", (e) => {
     li.appendChild(p);
     li.appendChild(addDeleteBtn());
     ul.appendChild(li);
+    personas.push(text);
 
     input.value = "";
     empty.style.display = "none";
