@@ -1,52 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>FreeWheel</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-  <title>FreeWheel</title>
-</head>
+  <body>
+    <!-- cabecera -->
+    <header>
+      <img src="./img/smoking-azul.jpg" alt="Foto principal" />
+    </header>
+    <main>
+      <section>
+        <div class="container">
+          <h1>Amigo Invisible</h1>
+          <div class="search">
+            <form>
+              <input type="text" placeholder="Añade un nombre..." />
+              <button class="btn-add">+</button>
+            </form>
+          </div>
+          <div class="li-container">
+            <ul></ul>
+          </div>
+          <div id="parejas">
+            <ul>
+              <li>ana - quique</li>
+              <li>bea - paula</li>
+            </ul>
+          </div>
+          <p id="mostrar-lista"></p>
+          <div id="botones">
+            <p class="p-btn" onclick="crearlista()">Agregar lista</p>
+            <p class="p-btn" onclick="borrarlista()">Borrar lista</p>
+          </div>
+          <div class="empty">
+            <p>Añade nombres a la lista.</p>
+          </div>
+        </div>
+      </section>
+    </main>
 
-<body>
-  <!-- cabecera -->
-  <header>
-    <img src="./img/smoking-azul.jpg" alt="Foto principal" />
-  </header>
-  <div class="container">
-    <h1>Amigo Invisible</h1>
-    <div class="search">
-      <form>
-        <input type="text" placeholder="Añade un nombre..." />
-        <button class="btn-add">+</button>
-      </form>
-    </div>
-    <div class="li-container">
-      <ul></ul>
-    </div>
-    <div id="parejas">
-      <ul>
-        <li>ana - quique</li>
-        <li>bea - paula</li>
-      </ul>
-    </div>
-    <p id="mostrar-lista"></p>
-    <div id="botones">
-      <p class="p-btn" onclick="crearlista()">Agregar lista</p>
-      <p class="p-btn" onclick="borrarlista()">Borrar lista</p>
-    </div>
-    <div class="empty">
-      <p>Añade nombres a la lista.</p>
-    </div>
-  </div>
-  <!-- pie de paágina -->
-  <footer>
-    <img src="./img/cc.logo_.white_.png" alt="Creative Commons" id="CC" />
-    <p>By FreeWheel</p>
-  </footer>
-</body>
-<script type="text/javascript" src="./js/main.js"></script>
-
+    <!-- pie de paágina -->
+    <footer>
+      <img src="./img/cc.logo_.white_.png" alt="Creative Commons" id="CC" />
+      <p>By FreeWheel</p>
+    </footer>
+  </body>
+  <script type="text/javascript" src="./js/main.js"></script>
 </html>
