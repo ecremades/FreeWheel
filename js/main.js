@@ -4,11 +4,13 @@ const ul = document.querySelector("ul");
 const empty = document.querySelector(".empty");
 let personas = [];
 
+//función para crear la lista de personas
 function crearlista() {
   document.getElementById('mostrar-lista').innerHTML = personas;
 
 }
 
+//función que borra la lista de personas
 function borrarlista() {
   personas = [];
   document.getElementById('mostrar-lista').innerHTML = personas;
@@ -17,6 +19,7 @@ function borrarlista() {
 
 }
 
+//evento para hacer cñick y ir añadiendo texto 
 addBtn.addEventListener("click", (e) => {
   e.preventDefault();
 
@@ -37,6 +40,7 @@ addBtn.addEventListener("click", (e) => {
   }
 });
 
+//función paara añadir el botón de borrar X
 function addDeleteBtn() {
   const deleteBtn = document.createElement("button");
 
