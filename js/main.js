@@ -3,15 +3,13 @@ const input = document.querySelector("input");
 const addBtn = document.querySelector(".btn-add");
 const ul = document.querySelector("ul");
 const empty = document.querySelector(".empty");
-let personas = [ ];
+let personas = [];
 
+//función para crear la lista de personas
+function crearlista() {
+  document.getElementById('mostrar-lista').innerHTML = personas;
 
-//funcion random 
-/*function azar() {
-  const arrayIndex = Math.floor(Math.random() * personas.length);
-  const randomChoice = personas[arrayIndex];
-}*/
-
+}
 
 //función que borra la lista de personas
 function borrarlista() {
@@ -19,7 +17,7 @@ function borrarlista() {
   document.getElementById('mostrar-lista').innerHTML = personas;
   console.log(personas);
   document.getElementById('mostrar-lista').innerHTML = "la lista de personas está vacía";
-  
+
 }
 
 //evento para hacer cñick y ir añadiendo texto 
@@ -27,9 +25,6 @@ addBtn.addEventListener("click", (e) => {
   e.preventDefault();
 
   const text = input.value;
-
-  document.getElementById('mostrar-lista').innerHTML = personas;
-  console.log(personas);
 
   if (text !== "") {
     const li = document.createElement("li");
@@ -44,8 +39,9 @@ addBtn.addEventListener("click", (e) => {
     input.value = "";
     empty.style.display = "none";
   }
-}
-);
+  document.getElementById('mostrar-lista').innerHTML = personas;
+  console.log(personas);
+});
 
 //función paara añadir el botón de borrar X
 function addDeleteBtn() {
@@ -56,8 +52,6 @@ function addDeleteBtn() {
 
   deleteBtn.addEventListener("click", (e) => {
     const item = e.target.parentElement;
-    let index = array.indexOf(5);
-    array.splice(index, 1);
     ul.removeChild(item);
 
     const items = document.querySelectorAll("li");
@@ -65,12 +59,11 @@ function addDeleteBtn() {
     if (items.length === 0) {
       empty.style.display = "block";
     }
-
+    let index = personas.indexOf();
+    personas.splice(index, 1);
+    document.getElementById('mostrar-lista').innerHTML = personas;
   });
 
   return deleteBtn;
-
-
-
 
 }
