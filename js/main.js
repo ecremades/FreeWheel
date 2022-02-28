@@ -29,12 +29,16 @@ addBtn.addEventListener("click", (e) => {
   if (text !== "") {
     const li = document.createElement("li");
     const p = document.createElement("p");
+    personas.push(text);
+    const index = personas.length - 1;
+
     p.textContent = text;
+
+    li.id = index;
 
     li.appendChild(p);
     li.appendChild(addDeleteBtn());
     ul.appendChild(li);
-    personas.push(text);
 
     input.value = "";
     empty.style.display = "none";
@@ -59,8 +63,9 @@ function addDeleteBtn() {
     if (items.length === 0) {
       empty.style.display = "block";
     }
-    let index = personas.indexOf();
-    personas.splice(index, 1);
+
+    // let index = personas.indexOf();
+    personas.splice(item.id, 1);
     document.getElementById('mostrar-lista').innerHTML = personas;
   });
 
