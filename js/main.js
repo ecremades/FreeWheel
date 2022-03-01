@@ -7,10 +7,12 @@ let personas = [];
 
 //función para crear el azar
 function azar() {
-  var min = 2;
+
   var max = personas.length;
-  aleatorio = Math.round(Math.random() * (max - min)  + parseInt(min));
-  alert("El número es: " + aleatorio);
+  var aleatorio = Math.floor(Math.random() * max);
+  //alert("El número es: " + aleatorio);
+  console.log(aleatorio);
+  document.getElementById('numAleatorio').innerHTML = personas[aleatorio];
 }
 
 //función para crear la lista de personas

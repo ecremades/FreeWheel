@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 /*variable para tener más facil los colores al escribir*/
 :root {
     --azul: #2cabe0;
@@ -11,6 +12,7 @@
     --naranja-oscuro: #fe5c27;
     --rojo: #e31746;
 }
+
 /*el cuerpo*/
 body {
     margin: 0;
@@ -21,6 +23,7 @@ body {
     background-color: var(--azul);
     color: white;
 }
+
 /* la cabeza*/
 header {
     display: flex;
@@ -31,7 +34,8 @@ h1 {
     text-align: center;
     color: black;
 }
- /* cuadrado blanco*/
+
+/* cuadrado blanco*/
 .container {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -41,6 +45,7 @@ h1 {
     background-color: white;
     padding: 30px;
 }
+
 /*lista de los nombres*/
 .search {
     margin-left: auto;
@@ -68,6 +73,7 @@ input {
 ul {
     padding: 0;
 }
+
 /* lista de parejas*/
 li {
     list-style: none;
@@ -88,6 +94,7 @@ li p {
     color: black;
 
 }
+
 /* boton de borrar cada nombre*/
 .btn-delete {
     margin-left: auto;
@@ -108,6 +115,7 @@ li p {
     background-color: var(--amarillo-desgastao);
     color: black;
 }
+
 /*boton de añadir el nombre*/
 .btn-add {
     padding: 5px 15px;
@@ -129,6 +137,7 @@ li p {
     color: var(--naranja-oscuro);
     font-weight: bold;
 }
+
 /*pie de página*/
 footer {
     display: flex;
@@ -136,11 +145,13 @@ footer {
     align-items: flex-end;
     font-weight: 700;
 }
+
 /*img creative commons*/
 #CC {
     width: 10%;
     margin-right: 10%;
 }
+
 /*boton agregar lista y borrar lista*/
 #mostrar-lista {
     color: black;
@@ -148,7 +159,15 @@ footer {
 
 .p-btn {
     display: inline-block;
-    border: 1px solid red ;
+    border: 1px solid red;
     color: black
+}
 
+/*Lista seleccionados*/
+#numAleatorio {
+    background-color: #e31746;
+
+}
+#numAleatorio:hover{
+    background-color: #fee440;
 }
