@@ -16,7 +16,6 @@ position: absolute;
  }
 
 body {
-    position:absolute;
     z-index: 1;
 }
 
@@ -33,13 +32,14 @@ body {
 }
 /*el cuerpo*/
 body {
-    margin: 0;
     padding: 0;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
     background-color: var(--azul);
     color: white;
+    position: absolute;
+    margin: 10%;
 }
 /* la cabeza*/
 header {
