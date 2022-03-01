@@ -10,28 +10,7 @@
   </head>
 
   <body>
-    <style>
-      canvas {
-             position: fixed;
-             top: 0;
-             left: 0;
-             width: 100%;
-            z-index: 2;
-         }
-      #confet {
-        position: absolute;
-          z-index: 3;
-          }
-
-      body {
-        position:absolute;
-        z-index: 1;
-}
-
-  </style>
-   <canvas id="confetti" width="200" height="100"></canvas>
-   <button id="confet" onclick="startConfetti();" class="btn btn-danger">Start</button>
-    <!-- cabecera -->
+        <!-- cabecera -->
     <header>
       <img id="hombre-invisible" src="./img/smoking-azul.jpg" alt="Foto principal" />
     </header>
@@ -73,8 +52,8 @@
       <img src="./img/cc.logo_.white_.png" alt="Creative Commons" id="CC" />
       <p>By FreeWheel</p>
     </footer>
-  
-  </body>
+     <button onclick="startConfetti()">Confetti</button>
+     </body>
   <script type="text/javascript" src="./js/main.js"></script>
-  <script src="js/confetti2.js"></script> 
+  <script src="js/confetti2.js"></script>
 </html>
