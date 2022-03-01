@@ -5,6 +5,14 @@ const ul = document.querySelector("ul");
 const empty = document.querySelector(".empty");
 let personas = [];
 
+//función para crear el azar
+function azar() {
+  var min = 2;
+  var max = personas.length;
+  aleatorio = Math.round(Math.random() * (max - min)  + parseInt(min));
+  alert("El número es: " + aleatorio);
+}
+
 //función para crear la lista de personas
 function crearlista() {
   document.getElementById('mostrar-lista').innerHTML = personas;
