@@ -2,6 +2,26 @@
     margin: 0;
     padding: 0;
 }
+/* Animacion de Confetti*/
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+     z-index: 2;
+    }
+#confet {
+position: absolute;
+ z-index: 3;
+ }
+
+body {
+    position:absolute;
+    z-index: 1;
+}
+
+
+
 /*variable para tener más facil los colores al escribir*/
 :root {
     --azul: #2cabe0;
