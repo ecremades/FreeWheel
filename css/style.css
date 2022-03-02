@@ -29,6 +29,11 @@ body {
     --amarillo-desgastao: #ffc756;
     --naranja-oscuro: #fe5c27;
     --rojo: #e31746;
+    /*Paleta de colore DarkMode*/
+    --azul-oscuro:   #261C2C;
+    --morado-oscuro: #3E2C41;
+    --morado:    #5C527F;
+    --azul-gris: #6E85B2;
 }
 /*el cuerpo*/
 body {
