@@ -1,7 +1,7 @@
 # FreeWheel :tada::tada::tada::tada::confetti_ball::confetti_ball::confetti_ball::confetti_ball::gift::gift::gift::gift:
 [Juega a nuestro Amigo Invisible - FreeWheel](https://htmlpreview.github.io/?https://github.com/ecremades/FreeWheel/blob/main/index.html)
 
-:england: [English](https://github.com/ecremades/FreeWheel#english")
+:england: [English](https://github.com/ecremades/FreeWheel#introduction")
 
 #Introducción
 ###Es un proyecto hecho para jugar al juego del Amigo Invisible. Puedes introducir tantos nombres como quieras dentro. 
