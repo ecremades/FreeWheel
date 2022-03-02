@@ -13,6 +13,12 @@ function azar() {
   //alert("El número es: " + aleatorio);
   console.log(aleatorio);
   document.getElementById('numAleatorio').innerHTML = personas[aleatorio];
+
+  if (personas.length |= 0) {
+    parejas.style.display = "block";  
+  }
+
+
 }
 
 //función para crear la lista de personas
@@ -23,10 +29,15 @@ function crearlista() {
 
 //función que borra la lista de personas
 function borrarlista() {
-  personas = [];
+    personas = [];
+   if (personas.length === 0) {
+    ul.style.display = "none";
+  }
   document.getElementById('mostrar-lista').innerHTML = personas;
   console.log(personas);
-  document.getElementById('mostrar-lista').innerHTML = "la lista de personas está vacía";
+  document.getElementById('mostrar-lista').innerHTML = "La lista de personas está vacía";
+ 
+
 
 }
 
@@ -51,7 +62,7 @@ addBtn.addEventListener("click", (e) => {
     ul.appendChild(li);
 
     input.value = "";
-    empty.style.display = "none";
+    empty.style.display = "block";
   }
   document.getElementById('mostrar-lista').innerHTML = personas;
   console.log(personas);
