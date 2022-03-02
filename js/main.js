@@ -5,6 +5,16 @@ const ul = document.querySelector("ul");
 const empty = document.querySelector(".empty");
 let personas = [];
 
+//función para crear el azar
+function azar() {
+
+  var max = personas.length;
+  var aleatorio = Math.floor(Math.random() * max);
+  //alert("El número es: " + aleatorio);
+  console.log(aleatorio);
+  document.getElementById('numAleatorio').innerHTML = personas[aleatorio];
+}
+
 //función para crear la lista de personas
 function crearlista() {
   document.getElementById('mostrar-lista').innerHTML = personas;
