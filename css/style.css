@@ -3,6 +3,23 @@
     padding: 0;
 }
 
+/* Animacion de Confetti*/
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+     z-index: 2;
+    }
+#confet {
+position: absolute;
+ z-index: 3;
+ }
+
+body {
+    z-index: 1;
+}
+
 /*variable para tener más facil los colores al escribir*/
 :root {
     --azul: #2cabe0;
@@ -11,17 +28,23 @@
     --amarillo-desgastao: #ffc756;
     --naranja-oscuro: #fe5c27;
     --rojo: #e31746;
+    /*Paleta de colore DarkMode*/
+    --azul-oscuro:   #261C2C;
+    --morado-oscuro: #3E2C41;
+    --morado:    #5C527F;
+    --azul-gris: #6E85B2;
 }
 
 /*el cuerpo*/
 body {
-    margin: 0;
     padding: 0;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
     background-color: var(--azul);
     color: white;
+    position: absolute;
+    margin: 10%;
 }
 
 /* la cabeza*/
@@ -158,16 +181,30 @@ footer {
 }
 
 .p-btn {
+    padding: 10px;
+    background-color: #ff865e;;
     display: inline-block;
-    border: 1px solid red;
-    color: black
+    border: 5px solid #2cabe0; ;
+    color: black;
+}
+
+.p-btn:hover {
+    padding: 10px;
+    background-color:  #fee440;
+    color: black;
+
 }
 
 /*Lista seleccionados*/
+
+#parejas {display: none;}
+
 #numAleatorio {
     background-color: #e31746;
+    padding: 10px;
 
 }
 #numAleatorio:hover{
     background-color: #fee440;
+    padding: 10px;
 }
