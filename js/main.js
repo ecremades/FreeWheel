@@ -13,9 +13,11 @@ function azar() {
   //alert("El número es: " + aleatorio);
   console.log(aleatorio);
   document.getElementById('numAleatorio').innerHTML = personas[aleatorio];
+
   if (personas.length |= 0) {
     parejas.style.display = "block";  
   }
+
 
 }
 
