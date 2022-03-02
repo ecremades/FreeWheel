@@ -10,6 +10,12 @@
 
 ## Características:
 
+### Incluye:
+
+* Animación con Confetti :confetti_ball: :gift:
+* Animación de audio
+* Modo oscuro
+
 #### Tecnologías usadas:
 
 * [HTML](https://github.com/ecremades/FreeWheel/blob/main/index.html)
@@ -18,9 +24,14 @@
 
 ## Instalación:
 
-#### * Descarga el repositorio desde [aquí](https://github.com/ecremades/FreeWheel/archive/refs/heads/main.zip)
+#### Descarga el repositorio desde [aquí](https://github.com/ecremades/FreeWheel/archive/refs/heads/main.zip)
+
+#### También puedes clonar el repositorio desde tu terminal de comandos usando "git clone" desde la url: https://github.com/ecremades/FreeWheel.git
+
+[Volver arrriba](#top)
 
 ![Amigo Invisible - Free Wheel](https://github.com/ecremades/FreeWheel/blob/main/img/amigoInvisible.jpg)
+
 
 <a name="english"></a>
 ## Introduction
@@ -28,6 +39,12 @@
 #### It can be used to decide who should give a gift to another person on the list.:gift:
 
 ## Features:
+
+### Includes:
+
+* Confetti animation :confetti_ball: :gift:
+* Audio animation
+* Dark mode
 
 #### Technologies used:
 
@@ -37,7 +54,8 @@
 
 ## Installation:
 
-#### * Download the repository [here](https://github.com/ecremades/FreeWheel/archive/refs/heads/main.zip)
+#### Download the repository [here](https://github.com/ecremades/FreeWheel/archive/refs/heads/main.zip)
 
+#### You can also clone the repository from your command terminal from the url: https://github.com/ecremades/FreeWheel.git
 
-[Volver arrriba](#top)
+[Go to the top](#top)
