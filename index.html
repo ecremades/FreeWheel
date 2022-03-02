@@ -18,6 +18,9 @@
       <section>
         <div class="container">
           <h1>Amigo Invisible</h1>
+            <div class="empty">
+              <p>Añade nombres a la lista.</p>
+            </div>
           <div class="search">
             <form>
               <input type="text" placeholder="Añade un nombre..." />
@@ -26,24 +29,18 @@
           </div>
           <div class="li-container">
             <ul>
-
-            </ul>
-          </div>
-          <div id="parejas">
-            <ul>
-              <li>ana - quique</li>
-              <li>bea - paula</li>
             </ul>
           </div>
           <p id="mostrar-lista"></p>
           <div id="botones">
-            <p class="p-btn" onclick="startConfetti()">Elegir al azar</p>
-            <p class="p-btn" onclick="borrarlista(), stopConfetti()">Borrar lista</p>
+            <h4 class="p-btn" onclick="azar(), startConfetti()">Elegir al azar</h4>
+            <h4 id="deleteOption" class="p-btn" onclick="borrarlista(), stopConfetti()">Borrar lista</h4>
           </div>
-          <div class="empty">
-            <p>Añade nombres a la lista.</p>
+          <div id="parejas">
+            <h2>RESULTADO:</h2>
+            <p id="numAleatorio"></p>
           </div>
-        </div>
+        </div>    
       </section>
     </main>
 
@@ -55,5 +52,5 @@
      <!--button onclick="startConfetti()">Confetti</button>-->
      </body>
   <script type="text/javascript" src="./js/main.js"></script>
-  <script src="js/confetti2.js"></script>
+  <script type="text/javascript" src="js/confetti2.js"></script>
 </html>

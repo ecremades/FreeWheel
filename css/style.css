@@ -167,8 +167,30 @@ footer {
 }
 
 .p-btn {
+    padding: 10px;
+    background-color: #ff865e;;
     display: inline-block;
-    border: 1px solid red ;
-    color: black
+    border: 5px solid #2cabe0; ;
+    color: black;
+}
 
+.p-btn:hover {
+    padding: 10px;
+    background-color:  #fee440;
+    color: black;
+
+}
+
+/*Lista seleccionados*/
+
+#parejas {display: none;}
+
+#numAleatorio {
+    background-color: #e31746;
+    padding: 10px;
+
+}
+#numAleatorio:hover{
+    background-color: #fee440;
+    padding: 10px;
 }
