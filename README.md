@@ -4,19 +4,21 @@
 
 :england: [English](#english)
  
-## Introducción
+## Introducción:
 #### Es un proyecto hecho para jugar al juego del Amigo Invisible. Puedes introducir tantos nombres como quieras dentro. 
 #### El programa te devuelve dos nombres al azar de la lista. Se puede usar para decidir quien debe hacer un regalo a otra persona de la lista.:gift:
 
-## Características
+## Características:
 
-#### Tecnologías usadas
+#### Tecnologías usadas:
 
 * [HTML](https://github.com/ecremades/FreeWheel/blob/main/index.html)
 * [CSS](https://github.com/ecremades/FreeWheel/blob/main/css/style.css)
 * [JAVASCRIPT](https://github.com/ecremades/FreeWheel/tree/main/js) 
 
+## Instalación:
 
+#### * Descarga el repositorio desde [aquí](https://github.com/ecremades/FreeWheel/archive/refs/heads/main.zip)
 
 ![Amigo Invisible - Free Wheel](https://github.com/ecremades/FreeWheel/blob/main/img/amigoInvisible.jpg)
 
@@ -32,6 +34,10 @@
 * [HTML](https://github.com/ecremades/FreeWheel/blob/main/index.html)
 * [CSS](https://github.com/ecremades/FreeWheel/blob/main/css/style.css)
 * [JAVASCRIPT](https://github.com/ecremades/FreeWheel/tree/main/js) 
+
+## Installation:
+
+#### * Download the repository [here](https://github.com/ecremades/FreeWheel/archive/refs/heads/main.zip)
 
 
 [Volver arrriba](#top)
