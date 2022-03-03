@@ -7,7 +7,11 @@ let personas = [];
 
 //función para crear el azar
 function azar() {
-
+  
+  // audio
+  let audio =document.getElementById ("audio");
+  audio.play();
+  
   var max = personas.length;
   var aleatorio = Math.floor(Math.random() * max);
   //alert("El número es: " + aleatorio);
@@ -36,7 +40,8 @@ function borrarlista() {
   document.getElementById('mostrar-lista').innerHTML = personas;
   console.log(personas);
   document.getElementById('mostrar-lista').innerHTML = "La lista de personas está vacía";
- 
+  //audio pauses
+  audio.pause();
 
 
 }

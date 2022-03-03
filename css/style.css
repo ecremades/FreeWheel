@@ -117,6 +117,10 @@ li p {
     color: black;
 
 }
+/*audio*/   
+#audio {
+    display: none;
+}
 
 /* boton de borrar cada nombre*/
 .btn-delete {
