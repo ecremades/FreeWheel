@@ -15,10 +15,22 @@ function azar() {
   var max = personas.length;
   var aleatorio = Math.floor(Math.random() * max);
   var aleatorio2 = Math.floor(Math.random() * max);
+  if (aleatorio === aleatorio2){
+      while (aleatorio === aleatorio2){
+                      var aleatorio2 = Math.floor(Math.random() * max);
+                      document.getElementById('numAleatorio2').innerHTML = personas[aleatorio2];
+      }}else if (aleatorio != aleatorio2){
+        document.getElementById('numAleatorio').innerHTML = personas[aleatorio];
+        document.getElementById('numAleatorio2').innerHTML = personas[aleatorio2];
+    }else{
+      var aleatorio = Math.floor(Math.random() * max);
+      document.getElementById('numAleatorio').innerHTML = personas[aleatorio];
+    }
+
   //alert("El número es: " + aleatorio);
   console.log(aleatorio);
-  document.getElementById('numAleatorio').innerHTML = personas[aleatorio];
-  document.getElementById('numAleatorio2').innerHTML = personas[aleatorio2];
+  /*document.getElementById('numAleatorio').innerHTML = personas[aleatorio];
+  document.getElementById('numAleatorio2').innerHTML = personas[aleatorio2];*/
 
   if (personas.length |= 0) {
     parejas.style.display = "block";  
