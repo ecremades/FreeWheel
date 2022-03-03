@@ -202,20 +202,36 @@ footer {
 /*Lista seleccionados*/
 
 #parejas {display: none;}
+#divresultado {
+    display: flex;
+}
 
 #numAleatorio {
     background-color: #e31746;
-    padding: 10px;
+    padding: 7px;
+    justify-content: center;
 
 }
 #numAleatorio:hover{
     background-color: #fee440;
-    padding: 10px;
+    padding: 7px;
+    justify-content: center;
+}
+#numAleatorio2 {
+    background-color:var(--azul-gris) ;
+    padding: 7px;
+
+}
+#numAleatorio2:hover {
+    background-color: var(--naranja-claro);
+    padding: 7px;
 }
 
 @media screen and (min-device-width: 10px) and (max-device-width: 910px){
     input {
         width: 44%;
     }
-
+    #divresultado{
+        flex-direction: column;
+    }
 }
