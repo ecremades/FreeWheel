@@ -59,7 +59,7 @@ h1 {
 }
 
 /* cuadrado blanco*/
-.container {
+#container {
     margin-top: 30px;
     margin-bottom: 30px;
     width: 30%;

@@ -112,3 +112,23 @@ function addDeleteBtn() {
   return deleteBtn;
 
 }
+
+// Función DarkMode
+
+function darkmode() {
+
+  document.getElementById("body").style.backgroundColor = '#261C2C';
+  document.getElementById("hombre-invisible").src = './img/invisible.png'; 
+
+  document.getElementById("container").style.backgroundColor = '#3E2C41';
+}
+
+// Función LightkMode
+
+function lightmode() {
+
+  document.getElementById("body").style.backgroundColor = '#2cabe0';
+  document.getElementById("hombre-invisible").src = './img/smoking-azul.jpg'; 
+
+  document.getElementById("container").style.backgroundColor = 'white';
+}
