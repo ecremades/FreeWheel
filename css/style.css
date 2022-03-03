@@ -212,3 +212,10 @@ footer {
     background-color: #fee440;
     padding: 10px;
 }
+
+@media screen and (min-device-width: 10px) and (max-device-width: 910px){
+    input {
+        width: 44%;
+    }
+
+}
