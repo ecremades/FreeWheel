@@ -239,6 +239,7 @@ footer {
     }
     #hombre-invisible {
         width: 100%;
+        height: auto;
 
     }
     #container {
