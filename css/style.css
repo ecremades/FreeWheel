@@ -234,9 +234,9 @@ footer {
     #divresultado{
         flex-direction: column;
     }
-    #body {
+   /* #body {
         align-items: center;
-    }
+    }*/
     #hombre-invisible {
         width: 100%;
         height: auto;
