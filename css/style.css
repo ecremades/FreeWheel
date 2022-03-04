@@ -229,9 +229,20 @@ footer {
 
 @media screen and (min-device-width: 10px) and (max-device-width: 910px){
     input {
-        width: 44%;
+        width: 60%;
     }
     #divresultado{
         flex-direction: column;
     }
+    #body {
+        align-items: center;
+    }
+    #hombre-invisible {
+        width: 130%;
+
+    }
+    #container {
+        width: 70%;
+    }
+    
 }
